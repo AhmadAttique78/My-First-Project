@@ -1,0 +1,122 @@
+body{
+    /* margin: 0px; */
+    /* padding: 0px; */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../about-images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* HEADINGS */
+
+h1{
+    clear: both;
+    font-size: 3rem;
+    text-decoration: none;
+    color: crimson;
+    text-transform: capitalize;
+    transition: all 2s ease;
+}
+h1:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+h2{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: gold;
+    transition: all 2s ease;
+}
+h2:hover{
+    text-decoration: underline;
+    color: darkorange;
+}
+
+
+h3{
+    text-decoration: none;
+    color: crimson;
+    transition: all 2s ease;
+
+}
+h3:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/* PARAGRAPH */
+
+p{
+    color: cyan;
+    clear: both;
+}
+
+p::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+/* IMAGES */
+
+img{
+    width: 283px;
+}
+
+.img1{
+    float: right;
+    border-radius: 50%;
+    height: 293px;
+    margin-right: 55px;
+    border: transparent;
+    transition: all 3s ease-in-out;
+}
+.img1:hover{
+    transform: translateX(-100px);
+    border-radius: 40%;
+}
+
+.img2{
+    border-radius: 10px;
+    border: transparent;
+}
+
+.img3{
+    border-radius: 10px;  
+    border: transparent;
+}
+
+/* LINKS */
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 8px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: gold;
+
+}
+
+ul li a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+
+.homelink{
+    float: right;
+}
+
+
+
+
+
